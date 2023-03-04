@@ -1,0 +1,86 @@
+body
+{ 
+    background-color: rgb(19, 18, 27);
+    color: rgb(255, 255, 255);
+    font-family: roboto;  
+}
+
+.wrapper
+{
+    background-color: rgb(14, 38, 44);
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+
+.head
+{
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin-right: auto;
+    
+}
+
+.sub-head
+{
+    margin-right: auto;
+    color: #547575;
+}
+
+.container
+{
+    width: 500px;
+    height: 300px;
+    border-bottom: 1px solid #414e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nColor
+{
+    color: greenyellow;
+}
+
+#genBtn
+{
+    background-color: greenyellow;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: larger;
+    text-shadow: 1px 1px 2px rgb(27, 100, 5);
+    border-radius: 6px;
+    margin-right: auto;
+}
+
+.field
+{
+    
+    background-color: #547575;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #f5ffff;
+    padding-top: 20px;
+    padding-left: 60px;
+    
+}
+
+.passwords
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
